@@ -1,0 +1,15 @@
+<section class="properity-binding">
+  <article>
+    <h3>Interpolation / Interpolação</h3>
+    <!--Essa expressão '{{ }}', da acesso aos conteúdos da classe do componente
+    como variáveis e funções-->
+    <p>String renderizada com Interpolação: {{ url }}</p>
+    <p>Resultado de 1 + 1 é: {{ getValor() }} </p>
+  </article>
+  <article>
+    <h3>Properity Binding</h3>
+    <!--O properity binding permite usar expressões do componente entre aspas
+    com o elemento html entre colchetes-->
+    <img [src]="urlImage">
+  </article>
+</section>
